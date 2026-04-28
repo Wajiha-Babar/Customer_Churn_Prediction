@@ -161,7 +161,7 @@ The notebook includes detailed EDA visuals:
 
 ---
 
-## 🖥️ Premium Streamlit Dashboard
+## 🖥️  Streamlit Dashboard
 
 The project includes a clean, professional, luxury-style interactive dashboard built with Streamlit.
 
