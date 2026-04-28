@@ -15,6 +15,10 @@ venv/
 env/
 ENV/
 
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
 
 # ===============================
 # VS Code / IDE
@@ -37,31 +41,28 @@ desktop.ini
 *.key
 
 # ===============================
-# Streamlit
+# Streamlit Secrets
 # ===============================
 .streamlit/secrets.toml
 
 # ===============================
-# Model Files
+# Keep generated temporary batch outputs ignored
 # ===============================
-models/*.pkl
-models/*.joblib
-
-
+outputs/dashboard_batch_predictions.csv
 
 # ===============================
-# Large Raw Data Files
-# Optional: keep data out of GitHub if dataset is large
+# Optional large figure files
 # ===============================
-data/raw/*.csv
-data/raw/*.zip
-data/processed/*.csv
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.jpeg
 
 # ===============================
-# Keep folders in GitHub
+# Keep required deployment files allowed
 # ===============================
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!models/.gitkeep
-!outputs/.gitkeep
-!outputs/figures/.gitkeep
+!data/raw/train.csv
+!data/raw/test.csv
+!data/raw/sample_submission.csv
+!models/churn_model.pkl
+!outputs/metrics.json
+!outputs/feature_importance.csv
