@@ -1,0 +1,78 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ===============================
+# Virtual Environment
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# VS Code / IDE
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.*
+*.key
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/secrets.toml
+
+# ===============================
+# Model Files
+# ===============================
+models/*.pkl
+models/*.joblib
+
+# ===============================
+# Generated Outputs
+# ===============================
+outputs/*.json
+outputs/*.csv
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.jpeg
+
+# ===============================
+# Large Raw Data Files
+# Optional: keep data out of GitHub if dataset is large
+# ===============================
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+
+# ===============================
+# Keep folders in GitHub
+# ===============================
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
+!outputs/figures/.gitkeep
