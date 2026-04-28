@@ -15,10 +15,6 @@ venv/
 env/
 ENV/
 
-# ===============================
-# Jupyter Notebook
-# ===============================
-.ipynb_checkpoints/
 
 # ===============================
 # VS Code / IDE
@@ -51,14 +47,7 @@ desktop.ini
 models/*.pkl
 models/*.joblib
 
-# ===============================
-# Generated Outputs
-# ===============================
-outputs/*.json
-outputs/*.csv
-outputs/figures/*.png
-outputs/figures/*.jpg
-outputs/figures/*.jpeg
+
 
 # ===============================
 # Large Raw Data Files
